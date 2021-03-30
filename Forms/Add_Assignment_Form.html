@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="StyleSheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <a id="home" href="javascript:history.back()"> <i class="fa fa-home"></i></a>
+
+    <div class="assignments" id="assignmentId">
+        <form action="page.html" method="get">
+            <H3>Add Form for Assignments</H3>
+
+            <label for="Title"> Title</label>
+            <input type="text" pattern="[a-zA-Z0-9]+" placeholder="Τίτλος εργασίας" maxlength="20" required>
+
+            <br><label for="Description">Description</label>
+            <textarea name="Description" cols="40" rows="10" maxlength="500"
+                placeholder="Περισσότερες πληροφορίες για την εργασία, π.χ. λειτουργίες μέχρι 500 χαρακτήρες"
+                required></textarea>
+
+            <br><label for="SubmissionDate">Submission Date</label>
+            <input id="startDate" type="date" min="2021-01-01" max="2021-12-01" required>
+
+            <br><label for="OralMark">Oral Mark</label>
+            <input type="number" min="0" max="50" placeholder="Μεταξύ 0 - 50" required>
+
+            <br><label for="TotalMark">Total Mark</label>
+            <input type="number" min="0" max="50" placeholder="Μεταξύ 0 - 50" required>
+
+            <br>
+            <div class="bothbuttons">
+                <button input type="submit" class="button" name="submit" id="submit">Submit</button>
+                <button input type="reset" class="button" Reset>
+                    Reset</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="StyleSheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <a id="home" href="javascript:history.back()"> <i class="fa fa-home"></i></a>
+
+    <div class="assignments" id="assignmentId" s>
+        <form action=" page.html" method="get">
+            <H3>Add Form for Assignments per Course</H3>
+
+            <br><label for="Title" class="assignments">Choose Assignment Title</label>
+            <select>
+                <option value="Design a school">Design a school</option>
+                <option value="Design a luna park">Design a luna park</option>
+                <option value="Create a website">Create a website</option>
+            </select>
+
+            <br><label for="Stream">Choose Course Stream</label>
+            <select>
+                <option value="C#">C#</option>
+                <option value="Python">Python</option>
+                <option value="JavaScript">JavaScript</option>
+            </select>
+
+            <br>
+            <div class="bothbuttons">
+                <button input type="submit" class="button" name="submit" id="submit">Submit</button>
+                <button input type="reset" class="button" Reset>
+                    Reset</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

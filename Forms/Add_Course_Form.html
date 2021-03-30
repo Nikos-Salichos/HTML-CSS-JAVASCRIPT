@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="StyleSheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <a id="home" href="javascript:history.back()"> <i class="fa fa-home"></i></a>
+
+    <div class="courses" id="courseId">
+        <form name="courseForm" action="page.html" method="get">
+            <H3>Add Form for Courses</H3>
+
+            <label for="Title"> Title</label>
+            <input type="text" pattern="[a-zA-Z0-9]+" maxlength="20" required>
+
+            <br><label for="Stream">Choose Stream</label>
+            <select>
+                <option value="C#">C#</option>
+                <option value="Python">Python</option>
+                <option value="JavaScript">JavaScript</option>
+            </select>
+
+            <br><label for="Type">Type</label>
+            <select>
+                <option value="Full Time"> Full Time</option>
+                <option value="Part Time"> Part Time </option>
+            </select>
+
+            <br><label for=" StartDate">Start Date</label>
+            <input id="startDate" type="date" min="2021-01-01" max="2021-12-01" required>
+
+            <br><label for="EndDate">End Date</label>
+            <input id="endDate" type="date" min="2021-01-01" max="2022-01-01" required>
+
+            <br>
+            <div class="bothbuttons">
+                <button input type="submit" class="button" name="submit" id="submit">Submit</button>
+                <button input type="reset" class="button" Reset>
+                    Reset</button>
+
+            </div>
+        </form>
+    </div>
+
+
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>

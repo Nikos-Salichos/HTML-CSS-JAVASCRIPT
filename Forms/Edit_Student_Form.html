@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="StyleSheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <a id="home" href="javascript:history.back()"> <i class="fa fa-home"></i></a>
+
+    <div class="students" id="studentId">
+        <form action="page.html" method="get">
+            <H3>Edit Form for Students</H3>
+
+            <label for="First Name"> <i class="fa fa-user icon"></i> First Name</label>
+            <input class="flname" id="firstname" class="flname" type="text" name="firstname" pattern="[a-zA-Z]+"
+                placeholder="Μικρό όνομα" maxlength="50" required>
+
+            <br><label for="Last Name"> <i class="fa fa-user icon"></i> Last Name</label>
+            <input class="flname" type="text" pattern="[a-zA-Z]+" placeholder="Επώνυμο" maxlength="50" required>
+
+            <br><label for="Date Of Birth">Date of Birth</label>
+            <input type="date" min="1950-01-01" max="2003-12-31" required>
+
+            <br><label for="Tuition Fees"> Tuition Fees</label>
+            <input type="number" min="0" max="2500" placeholder="Μεταξύ 0 και 2500€" required>
+
+            <br>
+            <div class="bothbuttons">
+                <button input type="submit" class="button" name="submit" id="submit">Submit</button>
+                <button input type="reset" class="button" Reset>
+                    Reset</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>

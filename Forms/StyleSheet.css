@@ -1,0 +1,149 @@
+label {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    box-shadow: 5px 5px 5px 5px #888888;
+    background-color:#f2fcfe ;
+}
+
+input { 
+      width: 50%;
+      font-size: 18px;
+      border-radius: 7px;
+      margin:10px;
+      font-family: Arial, Helvetica, sans-serif;
+}
+
+
+select{
+    width: 50%;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border-radius: 7px;
+}
+
+div{
+    margin: auto;
+    text-align: center;
+    margin-top: 1%;
+}
+
+div.courses {
+    border: 2px solid blue;
+    padding:1%;
+    width: 50%;
+}
+
+div.trainers {
+    border: 2px solid blue;
+    padding:1%;
+    width: 50%;
+}
+
+div.students {
+    border: 2px solid blue;
+    padding:1%;
+    width: 50%;
+}
+
+div.assignments {
+    border: 2px solid blue;
+    padding:1%;
+    width: 50%;
+}
+
+.button {
+    background-color: blue;
+    color: white;
+    padding:10px;
+    font-size: 16px;
+    transition: 0.5s;
+    opacity: 1;
+    margin: 10px;
+    cursor: pointer;
+    border: white;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 6px #888888;
+}
+
+.bothbuttons {
+    display: inline;
+}
+
+.button:hover {opacity: 0.6}
+
+input[type=reset]{
+    width: auto;
+    font-size: 16px;
+}
+
+input[type=submit]{
+    width: auto;
+    font-size: 15px;
+}
+
+div {
+    width: 30%;
+    background-color: orange;
+}
+
+span {
+    margin-right: 10px;
+}
+
+
+.toggleButton{
+    background-color: Orange;
+    border: none;
+    color: black;
+    padding:10px;
+    font-size: 16px;
+    transition: 0.5s;
+    opacity: 1;
+    margin: 10px;
+    cursor: pointer;
+    border: white;
+    border-radius: 5px;
+  }
+
+.toggleButton:hover {opacity: 0.6}
+
+textarea {
+      width: 50%;
+      resize: none;
+ }
+
+ body {
+    background-image: linear-gradient(to right,  
+    #1c92d2,
+    #f2fcfe);
+  }
+
+  *:focus {
+    outline: none;
+}
+
+.streamStC{
+    margin-left: -5px;
+    margin-right: 5px;
+}
+
+
+#home{
+    font-size: 50px;
+    position:sticky;
+    left: 50%;
+}
